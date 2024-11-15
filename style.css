@@ -147,7 +147,7 @@ p {
 
 
 @media (min-width: 1400px){
-    .facts-grid{
+    .facts-grid {
         grid-template-areas: 
         'one one two two'
         'three four four four'
@@ -155,15 +155,19 @@ p {
         
     }
 
-    .fact-col{
+    .fact-col {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .icon__size{
+    .icon__size {
         max-width: 100px;
+    }
+
+    .adobo-icon {
+        max-width: 160px;
     }
 
     p{
