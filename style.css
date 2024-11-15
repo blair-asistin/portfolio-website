@@ -77,9 +77,17 @@ p {
     
 }
 
-.facts-row {
+.facts-grid {
     padding: 170px 0;
-    
+    display: grid;
+    gap: 2em;
+    grid-template-areas: 
+     'one'
+     'two'
+     'three'
+     'four'
+     'five'
+     'six';
 }
 
 .fact-col {
@@ -87,7 +95,6 @@ p {
     border-radius: 1rem;
     text-align: center;
     padding: 2em;
-    margin-bottom: 2em;
 }
 
 .icon__size {
@@ -112,4 +119,46 @@ p {
 
 .eric-barone-logo {
     border-radius: 100px;
+}
+
+.fact-col:nth-child(1) {
+    grid-area: one;
+}
+
+.fact-col:nth-child(2) {
+    grid-area: two;
+}
+
+.fact-col:nth-child(3) {
+    grid-area: three;
+}
+
+.fact-col:nth-child(4) {
+    grid-area: four;
+}
+
+.fact-col:nth-child(5) {
+    grid-area: five;
+}
+
+.fact-col:nth-child(6) {
+    grid-area: six;
+}
+
+
+@media (min-width: 1400px){
+    .facts-grid{
+        grid-template-areas: 
+        'one one two five'
+        'three four four six'
+        
+    }
+
+    .icon__size{
+        max-width: 100px;
+    }
+
+    p{
+        font-size: 1.3rem;
+    }
 }
