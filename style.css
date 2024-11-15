@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 
-.temp-border{
-    
+img{
+    width: 100%;
 }
 
 body{
@@ -51,6 +51,65 @@ p {
     color: #E2E2B6;
 }
 
+.custom-shape-divider-top-1731643945 {
+    position: absolute;
+    top: -100;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1731643945 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1731643945 .shape-fill {
+    fill: #02234a;
+}
+
+
 .facts-section {
-    background-color: #02234a;
+    background-color: #021526;
+    
+}
+
+.facts-row {
+    padding: 170px 0;
+    
+}
+
+.fact-col {
+    background-color: #09192e;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.icon__size {
+    max-width: 193.594px;
+}
+
+.philippine-flag {
+    
+}
+
+.basketball-icon {
+    
+}
+
+.adobo-icon {
+
+}
+
+.ivos-icon {
+    border-radius: 100px;
+}
+
+.eric-barone-logo {
+    border-radius: 100px;
 }
