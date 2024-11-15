@@ -149,8 +149,9 @@ p {
 @media (min-width: 1400px){
     .facts-grid{
         grid-template-areas: 
-        'one one two five'
-        'three four four six'
+        'one one two two'
+        'three four four four'
+        'five five six six'
         
     }
 
