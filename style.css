@@ -154,6 +154,13 @@ p {
         
     }
 
+    .fact-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .icon__size{
         max-width: 100px;
     }
